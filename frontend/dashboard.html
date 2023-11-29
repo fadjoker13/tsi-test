@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Player Dashboard</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+</head>
+<body>
+    <!--{% comment %} <script src="{% static 'test.js' %}"></script> {% endcomment %}-->
+    <header class="container">
+        <div class="main-header">
+            <div class="logo">
+                <a href="#">ThE Sports Investment</a>
+            </div>
+        </div>
+    </header>
+    <div class="jump"></div>
+    <h2 class="p-text">Profile Player</h2>
+    <div class="image-container">
+        <!-- {% comment %} <img src="{% static 'imh.jpg' %}" alt="Description de l'image"> {% endcomment %}-->
+        <img src="imh.jpg" alt="Description de l'image">
+    </div>
+    <table class="playinformations">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Jersey Number</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="nameplayer">Ian Mahinmi</td>
+                <td id="jerseyNumber" class="Number">28</td>
+                <td id="playerPosition" class="PositionPlayer">Center</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="stats-table">
+        <thead>
+            <tr>
+                <th class="first" colspan="6">Stats for last five games</th>
+            </tr>
+            <tr>
+                <th>Opponent</th>
+                <th>Results</th>
+                <th>Minutes</th>
+                <th>Points</th>
+                <th>Assists</th>
+                <th>Rebounds</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Phoenix Suns</td>
+                <td class="win">W</td>
+                <td>28</td>
+                <td>17</td>
+                <td>03</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Sacramento Kings</td>
+                <td class="win">W</td>
+                <td>15</td>
+                <td>12</td>
+                <td>01</td>
+                <td>05</td>
+            </tr>
+            <tr>
+                <td>Golden State Warriors</td>
+                <td class="loss">L</td>
+                <td>32</td>
+                <td>22</td>
+                <td>05</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Philadelphia Sixers</td>
+                <td class="win">W</td>
+                <td>27</td>
+                <td>18</td>
+                <td>02</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Denver Nuggets</td>
+                <td class="loss">L</td>
+                <td>30</td>
+                <td>16</td>
+                <td>06</td>
+                <td>08</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!--<script src="test.js"></script>-->
