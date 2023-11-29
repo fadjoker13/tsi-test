@@ -18,6 +18,10 @@ My first test in fullstack dev because I didn't do that before.
 
 ## Installation
 
+install env
+```bash
+env\Scripts\activate
+```
 
 ```bash
 pip install -r requirements.txt
